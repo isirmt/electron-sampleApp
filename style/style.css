@@ -1,5 +1,6 @@
 header {
   user-select: none;
+  -webkit-app-region: drag;
 }
 
 .main-header {
@@ -25,4 +26,41 @@ header {
 
 main {
   padding: 0 25px;
+}
+
+.notification {
+  background-color: #cdf5da;
+  position: relative;
+  display: block;
+  padding: 5px 20px;
+  margin: 10px 0;
+  box-shadow: 0 3px 3px #379160b7;
+  padding-top: 40px;
+  overflow: hidden;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+
+.notification::before {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  width: 4rem;
+  text-align: center;
+  content: "Tips";
+  padding: .35px;
+  color: white;
+  font-weight: bold;
+  font-size: 1.3rem;
+  background-color: rgb(24, 172, 135);
+  border-radius: 0 0 10px 0;
+  -webkit-border-radius: 0 0 10px 0;
+  -moz-border-radius: 0 0 10px 0;
+  -ms-border-radius: 0 0 10px 0;
+  -o-border-radius: 0 0 10px 0;
 }
