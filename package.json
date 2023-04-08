@@ -1,6 +1,6 @@
 {
   "name": "sample-app",
-  "version": "1.0.0",
+  "version": "1.0.0b",
   "description": "Hello World!",
   "main": "main.js",
   "scripts": {
@@ -22,6 +22,11 @@
     "electron": "^24.0.0"
   },
   "dependencies": {
-    "electron-squirrel-startup": "^1.0.0"
+    "electron-squirrel-startup": "^1.0.0",
+    "update-electron-app": "^2.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/isirmt/electron-sampleApp.git"
   }
 }
