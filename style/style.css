@@ -1,0 +1,28 @@
+header {
+  user-select: none;
+}
+
+.main-header {
+  position: relative;
+  left: 0;
+  top: 0;
+  display: block;
+  background-color: #33ac97;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px #2f7a6eb7;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.main-header p {
+  color: white;
+  font-weight: bold;
+}
+
+main {
+  padding: 0 25px;
+}
