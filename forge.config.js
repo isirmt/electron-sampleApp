@@ -22,4 +22,17 @@ module.exports = {
       config: {},
     },
   ],
+  publishers: [
+    {
+      name: '@electron-forge/publisher-github',
+      config: {
+        repository: {
+          owner: 'isirmt',
+          name: 'electron-sampleApp',
+        },
+        prerelease: false,
+        draft: true,
+      },
+    },
+  ],
 };
